@@ -3,8 +3,10 @@ A crappy console-copy-paste facebook script for in-chat facebook hangman with lo
 
 Generates a button for each chat window that you can press to start the game.
 
+Just paste the script into the console! It won't save any of your personal details or infect your browser with spyware! Trust me. Truuuuuust meeeeeeeeee-
+
 Todo:
-* Fixbug with subsequent games rendering 'the game is over'
+* Fix bug with subsequent games rendering 'the game is over'
   * probably to do with the game not being destroyed and/or the mutator not being successfully disconnected
   * hacky fix could be to just..... not render that text
 * Refactor some of the dirty coupling from the game
