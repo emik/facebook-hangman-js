@@ -44,7 +44,6 @@ var messageObj = function(sendMessageFunc, sendMessageOptions, otherFuncs){
 		that.sendMessage(player.name + "! Stop that. \"" + word + "\" has already been guessed!", sendMessageOptions);
 	},
 	startAgainQuestion = function(){
-		// TODO: what to do to start new game???
 		that.sendMessage("If you wish to start a new game, do something about it yo.", sendMessageOptions);
 	},
 	beginGame = function(players, guessedArray){
@@ -331,11 +330,3 @@ var hangmanBtns = document.querySelectorAll('.fb-hangman-btn');
 for(var i = 0; i < hangmanBtns.length; i++){
 	hangmanBtns[i].addEventListener("click", buttonHandler);
 }
-
-
-// var domObserver = new MutationObserver(function(mutations){
-// 	console.log('hello');
-// });
-// var observerConfig = {subtree: true, childList: true, characterData: true};
-// var conversationEl = document.querySelector('._4tdv:last');
-// domObserver.observe(conversationEl, observerConfig);
